@@ -1,0 +1,2 @@
+# Main packages
+websockets>=15.0.1
