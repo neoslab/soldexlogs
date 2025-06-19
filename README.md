@@ -1,5 +1,8 @@
 # SolDexLogs - Solana Log Decoder
 
+![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 **SolDexLogs** is a real-time Solana log listener and decoder tailored for decentralized exchanges (DEXs). It connects to Solana's mainnet WebSocket endpoint, filters logs from known DEX programs, extracts and decodes base64 data, and stores them in structured JSON Lines format for easy monitoring, analysis, or archival. Ideal for researchers, traders, and developers needing visibility into DEX interactions at the transaction level.
 
 * * *
@@ -85,12 +88,26 @@ collector = SolDexLogs(programids, outputfile="customfile.json")
 
 * * *
 
-### License
+## Contributing
 
-This script is open source under the [MIT License](LICENSE).
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -m "Add your feature"`).
+4. Push to your branch (`git push origin feature/your-feature`).
+5. Open a pull request with a clear description of your changes.
+
+Ensure your code follows PEP 8 style guidelines and includes appropriate tests.
 
 * * *
 
-### Contact
+## License
 
-Created by [@neoslab](https://neoslab.com/contact/) – Feel free to reach out!
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+* * *
+
+## Contact
+
+For issues, suggestions, or questions, please open an issue on GitHub or contact the maintainer at [GitHub Issues](https://github.com/neoslab/soldexlogs/issues).
